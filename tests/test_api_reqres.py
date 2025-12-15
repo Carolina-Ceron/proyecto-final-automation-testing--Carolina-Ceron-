@@ -5,7 +5,7 @@ import pytest
 user_id = 2 # ID de usuario para pruebas
 
 # Obtener usuario
-@pytest.mark.skipif(reason="Pide api key")
+
 def test_get_user(url_base, header_request):
     logger.info("➤---------- Iniciando pruebas de test_get_user ----------")
     logger.info(f"Obteniendo información del usuario con ID: {user_id}")
@@ -17,7 +17,7 @@ def test_get_user(url_base, header_request):
     logger.info("⟢₊⊹ ID del usuario verificado correctamente")
 
 # Crear usuario
-@pytest.mark.skipif(reason="Pide api key")
+
 def test_create_user(url_base, header_request): 
     logger.info("➤---------- Iniciando pruebas de test_create_user ----------")
     payload = {
@@ -34,7 +34,7 @@ def test_create_user(url_base, header_request):
     logger.info("⟢₊⊹ Nombre del usuario verificado correctamente")
 
 # Eliminar usuario
-@pytest.mark.skipif(reason="Pide api key")
+
 def test_delete_user(url_base, header_request): 
     logger.info("➤---------- Iniciando pruebas de test_delete_user ----------")
     response = requests.delete(f"{url_base}/{user_id}", headers=header_request) 
