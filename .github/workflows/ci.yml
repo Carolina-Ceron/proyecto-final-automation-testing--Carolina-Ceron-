@@ -7,7 +7,6 @@ on:
 jobs:
   tests:
     runs-on: ubuntu-latest
-    steps:
     env:
       PYTHON_VERSION: '3.12'
       PIP_CACHE: ~/.cache/pip
