@@ -1,0 +1,52 @@
+name: CI Talento Tech
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+    env:
+      PYTHON_VERSION: '3.12'
+      PIP_CACHE: ~/.cache/pip
+
+steps:
+    # 1. Checkout del código
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    # 2. Cache de dependencias de pip
+    - name: Cache dependency
+      uses: actions/cache@v4
+      with: 
+        path: ${{ env.PIP_CACHE }}
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+
+    # 3. Configurar Python
+    - name: Set up Python ${{ env.PYTHON_VERSION }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    # 4. Instalar dependencias
+    - name: Install dependencies
+      run: pip install -r requirements.txt 
+
+    # 5. Ejecutar pruebas
+    - name: Run tests
+      run: python3 run_tests.py
+
+    # 6. Subir reporte de pruebas como artefacto (reporte + imagenes + logs )
+    - name: Upload test report
+      uses: actions/upload-artifact@v4
+      with:
+        name: html-report
+        path: reports/
+    
+    - name: Upload suite logs
+      uses: actions/upload-artifact@v4
+      with:
+        name: suite-log
+        path: logs/

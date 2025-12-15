@@ -1,0 +1,183 @@
+18:55:44 - INFO - ➤---------- Iniciando pruebas de test_get_user ----------
+18:55:44 - INFO - Obteniendo información del usuario con ID: 2
+18:55:45 - INFO - ⟢₊⊹ Información del usuario obtenida correctamente verificado
+18:55:45 - INFO - ⟢₊⊹ ID del usuario verificado correctamente
+18:55:45 - INFO - ➤---------- Iniciando pruebas de test_create_user ----------
+18:55:46 - INFO - ⟢₊⊹ Usuario creado correctamente verificado
+18:55:46 - INFO - ⟢₊⊹ Nombre del usuario verificado correctamente
+18:55:46 - INFO - ➤---------- Iniciando pruebas de test_delete_user ----------
+18:55:46 - INFO - ⟢₊⊹ Usuario eliminado correctamente verificado
+18:55:48 - INFO - ➤---------- Iniciando pruebas de test_cart ----------
+18:55:49 - INFO - ⟢₊⊹ Producto agregado al carrito verificado
+18:55:57 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Backpack----------
+18:55:57 - INFO - ⟢₊⊹ Producto 'Sauce Labs Backpack' agregado al carrito verificado
+18:56:05 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Bike Light----------
+18:56:05 - INFO - ⟢₊⊹ Producto 'Sauce Labs Bike Light' agregado al carrito verificado
+18:56:13 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Bolt T-Shirt----------
+18:56:13 - INFO - ⟢₊⊹ Producto 'Sauce Labs Bolt T-Shirt' agregado al carrito verificado
+18:56:22 - INFO - ➤---------- Iniciando pruebas de test_inventory ----------
+18:56:22 - INFO - Iniciando sesión con usuario: standard_user y contraseña: secret_sauce
+18:56:22 - INFO - Verificando que hay productos en el inventario
+18:56:22 - INFO - ⟢₊⊹ Productos encontrados en el inventario verificado
+18:56:22 - INFO - Verificando que el carrito está vacío al inicio
+18:56:22 - INFO - ⟢₊⊹ Carrito vacío al inicio verificado
+18:56:22 - INFO - Verificando que el contador del carrito se actualiza después de agregar un producto
+18:56:22 - INFO - ⟢₊⊹ Contador del carrito actualizado correctamente después de agregar un producto verificado
+18:56:30 - INFO - ➤---------- Iniciando test_login_validation ----------
+18:56:30 - INFO - Completando los datos usuario: standard_user, contraseña: secret_sauce, debe funcionar: True
+18:56:30 - INFO - Probando un login exitoso con redireccionamiento
+18:56:30 - INFO - ⟢₊⊹ Login exitoso y redireccionamiento verificado
+18:56:38 - INFO - ➤---------- Iniciando test_login_validation ----------
+18:56:38 - INFO - Completando los datos usuario: error_user, contraseña: bad_sauce, debe funcionar: False
+18:56:38 - INFO - Probando un login fallido con mensaje de error
+18:56:38 - INFO - Login fallido y mensaje de error verificado
+18:56:46 - INFO - ➤---------- Iniciando test_login_validation ----------
+18:56:46 - INFO - Completando los datos usuario: locked_out_user, contraseña: secret_sauce, debe funcionar: False
+18:56:46 - INFO - Probando un login fallido con mensaje de error
+18:56:46 - INFO - Login fallido y mensaje de error verificado
+18:56:52 - INFO - ➤---------- Resumen de la sesión de pruebas ----------
+18:56:52 - INFO - ⏲ Tiempo total: 67.99 segundos
+18:56:52 - INFO - 🗒 Tests ejecutados: 11
+18:56:52 - INFO - ✓ Tests pasados: 11
+18:56:52 - INFO - ☓ Tests fallados: 0
+18:58:24 - INFO - ➤---------- Iniciando pruebas de test_get_user ----------
+18:58:24 - INFO - Obteniendo información del usuario con ID: 2
+18:58:25 - INFO - ⟢₊⊹ Información del usuario obtenida correctamente verificado
+18:58:25 - INFO - ⟢₊⊹ ID del usuario verificado correctamente
+18:58:25 - INFO - ➤---------- Iniciando pruebas de test_create_user ----------
+18:58:25 - INFO - ⟢₊⊹ Usuario creado correctamente verificado
+18:58:25 - INFO - ⟢₊⊹ Nombre del usuario verificado correctamente
+18:58:25 - INFO - ➤---------- Iniciando pruebas de test_delete_user ----------
+18:58:26 - INFO - ⟢₊⊹ Usuario eliminado correctamente verificado
+18:58:27 - INFO - ➤---------- Iniciando pruebas de test_cart ----------
+18:58:28 - INFO - ⟢₊⊹ Producto agregado al carrito verificado
+18:58:36 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Backpack----------
+18:58:36 - INFO - ⟢₊⊹ Producto 'Sauce Labs Backpack' agregado al carrito verificado
+18:58:44 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Bike Light----------
+18:58:44 - INFO - ⟢₊⊹ Producto 'Sauce Labs Bike Light' agregado al carrito verificado
+18:58:52 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Bolt T-Shirt----------
+18:58:52 - INFO - ⟢₊⊹ Producto 'Sauce Labs Bolt T-Shirt' agregado al carrito verificado
+18:59:00 - INFO - ➤---------- Iniciando pruebas de test_inventory ----------
+18:59:00 - INFO - Iniciando sesión con usuario: standard_user y contraseña: secret_sauce
+18:59:00 - INFO - Verificando que hay productos en el inventario
+18:59:00 - INFO - ⟢₊⊹ Productos encontrados en el inventario verificado
+18:59:00 - INFO - Verificando que el carrito está vacío al inicio
+18:59:00 - INFO - ⟢₊⊹ Carrito vacío al inicio verificado
+18:59:01 - INFO - Verificando que el contador del carrito se actualiza después de agregar un producto
+18:59:01 - INFO - ⟢₊⊹ Contador del carrito actualizado correctamente después de agregar un producto verificado
+18:59:08 - INFO - ➤---------- Iniciando test_login_validation ----------
+18:59:08 - INFO - Completando los datos usuario: standard_user, contraseña: secret_sauce, debe funcionar: True
+18:59:09 - INFO - Probando un login exitoso con redireccionamiento
+18:59:09 - INFO - ⟢₊⊹ Login exitoso y redireccionamiento verificado
+18:59:16 - INFO - ➤---------- Iniciando test_login_validation ----------
+18:59:16 - INFO - Completando los datos usuario: error_user, contraseña: bad_sauce, debe funcionar: False
+18:59:16 - INFO - Probando un login fallido con mensaje de error
+18:59:16 - INFO - Login fallido y mensaje de error verificado
+18:59:24 - INFO - ➤---------- Iniciando test_login_validation ----------
+18:59:24 - INFO - Completando los datos usuario: locked_out_user, contraseña: secret_sauce, debe funcionar: False
+18:59:24 - INFO - Probando un login fallido con mensaje de error
+18:59:24 - INFO - Login fallido y mensaje de error verificado
+18:59:31 - INFO - ➤---------- Resumen de la sesión de pruebas ----------
+18:59:31 - INFO - ⏲ Tiempo total: 66.52 segundos
+18:59:31 - INFO - 🗒 Tests ejecutados: 11
+18:59:31 - INFO - ✓ Tests pasados: 11
+18:59:31 - INFO - ☓ Tests fallados: 0
+19:06:25 - INFO - ➤---------- Iniciando pruebas de test_cart ----------
+19:06:25 - INFO - ⟢₊⊹ Producto agregado al carrito verificado
+19:06:33 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Backpack----------
+19:06:33 - INFO - ⟢₊⊹ Producto 'Sauce Labs Backpack' agregado al carrito verificado
+19:06:41 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Bike Light----------
+19:06:41 - INFO - ⟢₊⊹ Producto 'Sauce Labs Bike Light' agregado al carrito verificado
+19:06:49 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Bolt T-Shirt----------
+19:06:50 - INFO - ⟢₊⊹ Producto 'Sauce Labs Bolt T-Shirt' agregado al carrito verificado
+19:06:58 - INFO - ➤---------- Iniciando pruebas de test_inventory ----------
+19:06:58 - INFO - Iniciando sesión con usuario: standard_user y contraseña: secret_sauce
+19:06:58 - INFO - Verificando que hay productos en el inventario
+19:06:58 - INFO - ⟢₊⊹ Productos encontrados en el inventario verificado
+19:06:58 - INFO - Verificando que el carrito está vacío al inicio
+19:06:58 - INFO - ⟢₊⊹ Carrito vacío al inicio verificado
+19:06:58 - INFO - Verificando que el contador del carrito se actualiza después de agregar un producto
+19:06:58 - INFO - ⟢₊⊹ Contador del carrito actualizado correctamente después de agregar un producto verificado
+19:07:06 - INFO - ➤---------- Iniciando test_login_validation ----------
+19:07:06 - INFO - Completando los datos usuario: standard_user, contraseña: secret_sauce, debe funcionar: True
+19:07:06 - INFO - Probando un login exitoso con redireccionamiento
+19:07:06 - INFO - ⟢₊⊹ Login exitoso y redireccionamiento verificado
+19:07:14 - INFO - ➤---------- Iniciando test_login_validation ----------
+19:07:14 - INFO - Completando los datos usuario: error_user, contraseña: bad_sauce, debe funcionar: False
+19:07:14 - INFO - Probando un login fallido con mensaje de error
+19:07:14 - INFO - Login fallido y mensaje de error verificado
+19:07:22 - INFO - ➤---------- Iniciando test_login_validation ----------
+19:07:22 - INFO - Completando los datos usuario: locked_out_user, contraseña: secret_sauce, debe funcionar: False
+19:07:22 - INFO - Probando un login fallido con mensaje de error
+19:07:22 - INFO - Login fallido y mensaje de error verificado
+19:07:28 - INFO - ➤---------- Resumen de la sesión de pruebas ----------
+19:07:28 - INFO - ⏲ Tiempo total: 65.01 segundos
+19:07:28 - INFO - 🗒 Tests ejecutados: 11
+19:07:28 - INFO - ✓ Tests pasados: 11
+19:07:28 - INFO - ☓ Tests fallados: 0
+19:08:43 - INFO - ➤---------- Iniciando pruebas de test_cart ----------
+19:08:44 - INFO - ⟢₊⊹ Producto agregado al carrito verificado
+19:08:51 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Backpack----------
+19:08:52 - INFO - ⟢₊⊹ Producto 'Sauce Labs Backpack' agregado al carrito verificado
+19:09:00 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Bike Light----------
+19:09:01 - INFO - ⟢₊⊹ Producto 'Sauce Labs Bike Light' agregado al carrito verificado
+19:09:08 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Bolt T-Shirt----------
+19:09:09 - INFO - ⟢₊⊹ Producto 'Sauce Labs Bolt T-Shirt' agregado al carrito verificado
+19:09:17 - INFO - ➤---------- Iniciando pruebas de test_inventory ----------
+19:09:17 - INFO - Iniciando sesión con usuario: standard_user y contraseña: secret_sauce
+19:09:17 - INFO - Verificando que hay productos en el inventario
+19:09:17 - INFO - ⟢₊⊹ Productos encontrados en el inventario verificado
+19:09:17 - INFO - Verificando que el carrito está vacío al inicio
+19:09:17 - INFO - ⟢₊⊹ Carrito vacío al inicio verificado
+19:09:17 - INFO - Verificando que el contador del carrito se actualiza después de agregar un producto
+19:09:17 - INFO - ⟢₊⊹ Contador del carrito actualizado correctamente después de agregar un producto verificado
+19:09:25 - INFO - ➤---------- Iniciando test_login_validation ----------
+19:09:25 - INFO - Completando los datos usuario: standard_user, contraseña: secret_sauce, debe funcionar: True
+19:09:25 - INFO - Probando un login exitoso con redireccionamiento
+19:09:25 - INFO - ⟢₊⊹ Login exitoso y redireccionamiento verificado
+19:09:33 - INFO - ➤---------- Iniciando test_login_validation ----------
+19:09:33 - INFO - Completando los datos usuario: error_user, contraseña: bad_sauce, debe funcionar: False
+19:09:33 - INFO - Probando un login fallido con mensaje de error
+19:09:33 - INFO - Login fallido y mensaje de error verificado
+19:09:41 - INFO - ➤---------- Iniciando test_login_validation ----------
+19:09:41 - INFO - Completando los datos usuario: locked_out_user, contraseña: secret_sauce, debe funcionar: False
+19:09:41 - INFO - Probando un login fallido con mensaje de error
+19:09:41 - INFO - Login fallido y mensaje de error verificado
+19:09:47 - INFO - ➤---------- Resumen de la sesión de pruebas ----------
+19:09:47 - INFO - ⏲ Tiempo total: 66.20 segundos
+19:09:47 - INFO - 🗒 Tests ejecutados: 11
+19:09:47 - INFO - ✓ Tests pasados: 11
+19:09:47 - INFO - ☓ Tests fallados: 0
+19:34:34 - INFO - ➤---------- Iniciando pruebas de test_cart ----------
+19:34:35 - INFO - ⟢₊⊹ Producto agregado al carrito verificado
+19:34:42 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Backpack----------
+19:34:43 - INFO - ⟢₊⊹ Producto 'Sauce Labs Backpack' agregado al carrito verificado
+19:34:51 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Bike Light----------
+19:34:51 - INFO - ⟢₊⊹ Producto 'Sauce Labs Bike Light' agregado al carrito verificado
+19:35:01 - INFO - ➤---------- Iniciando pruebas de test_cart_json con producto: Sauce Labs Bolt T-Shirt----------
+19:35:01 - INFO - ⟢₊⊹ Producto 'Sauce Labs Bolt T-Shirt' agregado al carrito verificado
+19:35:09 - INFO - ➤---------- Iniciando pruebas de test_inventory ----------
+19:35:09 - INFO - Iniciando sesión con usuario: standard_user y contraseña: secret_sauce
+19:35:09 - INFO - Verificando que hay productos en el inventario
+19:35:09 - INFO - ⟢₊⊹ Productos encontrados en el inventario verificado
+19:35:09 - INFO - Verificando que el carrito está vacío al inicio
+19:35:09 - INFO - ⟢₊⊹ Carrito vacío al inicio verificado
+19:35:09 - INFO - Verificando que el contador del carrito se actualiza después de agregar un producto
+19:35:09 - INFO - ⟢₊⊹ Contador del carrito actualizado correctamente después de agregar un producto verificado
+19:35:17 - INFO - ➤---------- Iniciando test_login_validation ----------
+19:35:17 - INFO - Completando los datos usuario: standard_user, contraseña: secret_sauce, debe funcionar: True
+19:35:18 - INFO - Probando un login exitoso con redireccionamiento
+19:35:18 - INFO - ⟢₊⊹ Login exitoso y redireccionamiento verificado
+19:35:25 - INFO - ➤---------- Iniciando test_login_validation ----------
+19:35:25 - INFO - Completando los datos usuario: error_user, contraseña: bad_sauce, debe funcionar: False
+19:35:26 - INFO - Probando un login fallido con mensaje de error
+19:35:26 - INFO - Login fallido y mensaje de error verificado
+19:35:33 - INFO - ➤---------- Iniciando test_login_validation ----------
+19:35:33 - INFO - Completando los datos usuario: locked_out_user, contraseña: secret_sauce, debe funcionar: False
+19:35:33 - INFO - Probando un login fallido con mensaje de error
+19:35:33 - INFO - Login fallido y mensaje de error verificado
+19:35:40 - INFO - ➤---------- Resumen de la sesión de pruebas ----------
+19:35:40 - INFO - ⏲ Tiempo total: 68.45 segundos
+19:35:40 - INFO - 🗒 Tests ejecutados: 11
+19:35:40 - INFO - ✓ Tests pasados: 11
+19:35:40 - INFO - ☓ Tests fallados: 0
